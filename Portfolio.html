@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
     <title>My Portfolio</title>
-
 </head>
 <body>
 <header>
@@ -15,7 +14,7 @@
 <section>
     <h2>About Me</h2>
     <div>
-        <p>Hi, I'm Tamara H Elyyan, a passionate full-stack developer with expertise in React.js and backend technologies like Express and Spring.</p>
+        <p>Hi, I'm Tamara Elyyan, a passionate full-stack developer with expertise in React.js and backend technologies like Express and Spring.</p>
         <span>I am currently exploring new opportunities in web development.</span>
     </div>
 </section>
@@ -33,21 +32,43 @@
     <div class="contact-form">
         <form>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required> <br><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
 
             <label for="tel">Phone:</label>
-            <input type="tel" id="tel" name="tel" placeholder="Enter your phone number" required><br><br><br>
+            <input type="tel" id="tel" name="tel" placeholder="Enter your phone number" required><br><br>
 
-            <label for="description">Message:</label>
-            <textarea id="description" name="description" placeholder="Write your message here..." rows="4" required></textarea><br>
+            <label>Preferred Contact Method:</label><br>
+            <input type="radio" id="contact-email" name="contact-method" value="email">
+            <label for="contact-email">Email</label>
+            <input type="radio" id="contact-phone" name="contact-method" value="phone">
+            <label for="contact-phone">Phone</label><br><br>
+
+            <label>Services Interested In:</label><br>
+            <input type="checkbox" id="frontend" name="services" value="frontend">
+            <label for="frontend">Frontend Development</label>
+            <input type="checkbox" id="backend" name="services" value="backend">
+            <label for="backend">Backend Development</label>
+            <input type="checkbox" id="fullstack" name="services" value="fullstack">
+            <label for="fullstack">Full-Stack Development</label><br><br>
+
+            <label for="project-type">Select Project Type:</label>
+            <select id="project-type" name="project-type">
+                <option value="personal">Personal</option>
+                <option value="team">Team</option>
+                <option value="enterprise">Enterprise</option>
+            </select><br><br>
 
             <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
         </form>
     </div>
+    <br>
+
+    <a href="https://www.linkedin.com/in/tamara-elyyan" target="_blank">Connect with me on LinkedIn</a>
 </section>
 
 <footer>
-    <p>© 2024 Tamara H Refa'i. All rights reserved.</p>
+    <p>© 2024 Tamara Elyyan. All rights reserved.</p>
 </footer>
 </body>
 </html>
