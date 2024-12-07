@@ -1,0 +1,115 @@
+/* Portfolio.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* About Section */
+section div p {
+    margin: 0 0 10px;
+}
+
+/* Projects Section */
+section ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* Contact Form */
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 5px 0;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-form input[type="checkbox"],
+.contact-form input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
